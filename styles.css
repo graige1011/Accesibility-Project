@@ -3,6 +3,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
   }
   
   h1 {
@@ -19,9 +20,22 @@ body {
   p {
     font-size: 16px;
     color: #666;
+    background-color: #e1e8ed; /* Light gray-blueish background for paragraphs */
+    padding: 10px; /* Add some padding to the paragraphs */
   }
   
   ul {
     list-style: disc;
     margin-left: 20px;
   }
+  
+  /* Add some subtle colors to headings and links */
+  a {
+    color: #007acc; /* Dark blue for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
