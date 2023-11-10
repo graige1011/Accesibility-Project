@@ -38,4 +38,39 @@ body {
   a:hover {
     text-decoration: underline; /* Underline links on hover */
   }
+  header {
+    background-color: #e1e8ed; /* Set the background color of the header to black */
+    padding: 10px; /* Add padding to the header */
+    position: relative; /* Make the header fixed at the top of the page */
+    width: 100%; /* Make the header span the full width of the page */
+    z-index: 1000; /* Set a high z-index to ensure it's above other elements */
+}
+
+header img {
+    height: 50px; /* Set the height of the logo */
+    width: auto; /* Maintain the aspect ratio of the logo */
+    margin-left: 20px; /* Add some margin to the left of the logo */
+}
+
+header h1 {
+    display: inline; /* Make the h1 tag inline to appear next to the logo */
+    margin-left: 20px; /* Add some margin to the left of the h1 tag */
+}
+
+nav {
+    text-align: right; /* Align the navigation to the right */
+    margin-right: 20px; /* Add margin to the right of the navigation */
+    padding-top: 15px; /* Add some top padding to the navigation */
+}
+
+nav a {
+    color: #fff; /* Set the text color of the navigation links to white */
+    margin: 0 15px; /* Add margin to separate the navigation links */
+    text-decoration: none; /* Remove underline from the links */
+    font-size: 18px; /* Set the font size of the links */
+}
+nav a:hover {
+  background-color: #333; /* Set the background color on hover */
+}
+  
   
